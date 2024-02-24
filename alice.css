@@ -1,0 +1,25 @@
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 90px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  ul {
+    list-style: none; /*Remove o marcador padrão (bolinha ou número) dos itens da lista.*/
+    padding: 0; /*Remove o espaçamento interno da lista.*/
+  }
+  
+  li {
+    display: inline-block; /*Exibir lado a lado*/
+    margin: 10px; /*Adiciona uma margem de 10px ao redor de cada item da lista, criando um espaçamento entre eles.*/
+  }
+  
+  a {
+    text-decoration: none; /*Remove o sublinhado padrão dos links.*/
+    color: black; /*Define a cor do texto dos links como preto.*/
+  }
+  
+  a:hover {
+    color: blue; /*Muda a cor do texto dos links para azul quando o mouse passa por cima deles, criando um efeito de hover.*/
+  }
