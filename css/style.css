@@ -1,0 +1,30 @@
+body{
+  background-color: #333; /*Altera a cor do fundo do site*/
+}
+/*-------------- TITULO ------------------------------------*/
+.title {
+  /*Todos os elementos da classe "title receberão os estilos definidos dentro dessas chaves*/
+  font-family: 'Courier New', Courier, monospace; /*Define a fonte */
+  font-size: 90px; /*Define tamanho do texto*/
+  font-weight: bold; /*Torna a fonte do elemento em negrito*/
+  color: white; /*Define a cor do elemento*/
+}
+/*--------------------- MENU ----------------------*/
+ul {
+  list-style: none; /*Remove os pontos ou numeração padrão do navegador. */
+  padding: 0; /*Elimina o espaçamento padrão*/
+}
+
+li {
+  display: inline-block; /*Faz a lista se comportar como linja*/
+  margin: 10px; /*Define uma margem em cada um dos itens da lista*/
+}
+
+a {
+  text-decoration: none; /*Remove o sublinhado padrão do navegador*/
+  color: white; /*Define a cor padrão*/
+}
+
+a:hover { /*Passar o mouse sobre o link*/
+  color: red; /* Altera a cor do texto dos links quando o usurário passa o mouse*/
+}

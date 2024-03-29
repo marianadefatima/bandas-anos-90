@@ -1,0 +1,25 @@
+.title {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 90px;
+  font-weight: bold;
+  color: #333;
+}
+
+ul {
+  list-style: none; 
+  padding: 0; 
+}
+
+li {
+  display: inline-block; 
+  margin: 10px; 
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: blue; 
+}
